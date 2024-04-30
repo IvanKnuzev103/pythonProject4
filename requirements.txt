@@ -1,0 +1,12 @@
+blinker==1.6.3
+click==8.1.7
+Flask==2.2.5
+Flask-Login==0.6.3
+Flask-SQLAlchemy
+greenlet
+itsdangerous
+Jinja2
+MarkupSafe
+SQLAlchemy
+typing_extensions
+Werkzeug

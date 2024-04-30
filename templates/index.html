@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Magazin</title>
+   <link rel="stylesheet" href="my.css">
+    <style>
+        .class1
+        {
+            font-size: 80px;
+            color: fdeaa8;
+            background: #fdeaa8 url(https://sun9-35.userapi.com/impg/kPod-tpSs5HB5IzI3NnvS7QULXFdVVHtDmFotQ/S0fcnt5YxOs.jpg?size=1536x2048&quality=95&sign=f88217003b960168a00c35b8e795b678&type=album) center top/contain repeat content-box;
+        }
+        .class2{
+            font-size: 40px;
+            color: fdeaa8;
+            background: fdeaa8;
+            column-count: 4;
+        }
+        .classpart{
+            border: 10px solid #fae7b5;
+            color: Black;
+        }
+        .classn{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header class="class2">
+          <a href="/">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="classpart"><a href="/" class="classn" aria-current="page">Главная</a></li>
+            <li class="classpart"><a href="/register" class="classn">регистрация</a></li>
+            <li class="classpart"><a href="/login" class="classn">Войти</a></li>
+          </ul>
+    </header>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
